@@ -52,8 +52,6 @@ led_string=$(echo $1 | cut -c -3)
 
 led_nr=$(echo $1 | cut -c 4-)
 
-
-#The "..." shows that it is a string and with "$..." shows the value of the ... .
 if [ "$led_string" == "all" ]
 then
     if [ "$2" == "on" ]
